@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('nature2.png');  
+        }
+        
+        .flex-container {
+            display: flex;
+            background-color: lightcoral;
+        }
+        
+        .flex-container > div {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            animation-name: example;
+            animation-duration: 5s;
+        }
+        
+            @keyframes example {
+                from {background-color: lightblue;}
+                to {background-color: lightpink;}
+            }
+        .welcome-text,span{
+            position: relative;
+            display:flexbox;
+            text-align: center;
+            color: yellow;
+            margin-top: 155px;
+        }
+        .Paragraph-Text{
+            position: absolute;
+            display: flexbox;
+            text-align: left;
+            color: blanchedalmond;
+            margin: 110px;
+        }
+        mark{
+            background-color: mediumaquamarine;
+            color: black;
+        }
+        </style>
+        </head>
+        <body>
+            
+            <div class="flex-container">
+                <div>Home</div>
+                <div class="navbarlink"><a href="https://www.w3schools.com/python/">Python</a></div>
+                <div>CSS</div>
+                <div class="navbarlink"><a href="https://www.w3schools.com/html/">HTML</a></div>
+                <div class="navbarlink"><a href="https://rahalinada03.wixsite.com/my-travel">NYLDA</a></div>
+                <div class="navbarlink"><a href="/js/">JavaScript</a></div>
+                <div>Contact Us</div>
+            </div>
+        
+            <div class="welcome-text">
+                <span>
+                    <img src="">
+                    <h1>Hello, Welcome to my 2nd commit in web-development.I created this HTML page while implementing the Flexbox in the icon-bar.</h1></span>
+            
+            <div class="Paragraph-Text">
+            <p><strong>1. How content is laid out on the Flexbox/grid:  </strong><mark>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications share some common features</mark></p>
+            <p><strong>2. What settings are needed and how they affect the layout: </strong><mark>CSS page layout techniques allow us to take elements contained in a web page and control where they're positioned relative to the following factors: their default position in normal layout flow, the other elements around them, their parent container, and the main viewport/window. The page layout techniques we'll be covering in more detail in this module are:
+        
+                Normal flow
+                The display property
+                Flexbox
+                Grid
+                Floats
+                Positioning
+                Table layout
+                Multiple-column layout
+                Each technique has its uses, advantages, and disadvantages. No technique is designed to be used in isolation. By understanding what each layout method is designed for you'll be in a good position to understand which method is most appropriate for each task.</mark></p>
+            <p><strong>3. How the layout responds to changes in screen size: </strong><mark>A layout is fluid when the size of the elements inside the layout is defined by percentages, so if it proportionally changes based on the viewport size.Fixed layout means that it does not change based on the screen size or viewport size.The adaptive approach means that you design a series of fixed layouts, and the one nearest in size to the given viewport size is being displayed.</mark></p>
+            <p><strong>4. List the different features and how to use them:</strong><mark>Before the Flexbox Layout module, there were four layout modes:
+        
+                Block, for sections in a webpage
+                Inline, for text
+                Table, for two-dimensional table data
+                Positioned, for explicit position of an element
+                The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</mark></p>
+        
+</body>
+</html>
